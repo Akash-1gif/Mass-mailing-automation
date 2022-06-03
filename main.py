@@ -30,4 +30,5 @@ n=int(input("enter number of recipient="))
 for x in range(n):
     y=input(f"enter email id of recipient {x+1}=")
     l.append(y)
-fun1(l)
+if(n>0):
+    fun1(l)
